@@ -3,3 +3,11 @@ node_js: node
 services:
 - mongodb
 deploy:app: https://desolate-sea-45830.herokuapp.com/
+deploy:
+  provider: heroku
+  api_key:
+    secure: JkP/GOEvdnm/gS/01kk7OlLvfA3A3OpTZjekQSbEqp2xDr4EOFtY2DMi6CVrvjduFib4dcUQVZO5d8OU4seKJUqwPMYU0yGNcAcOXBhStIDx+wDLOR1FD8CAOVNQhRI6bNfRzQa3zS67KctTGtc2EV23OrYNXHoI2eiQuB2pyRROnp7Rll3MJDhifjVn9aO9pUJ76e0SfkkAi8WZ1BNh2V1N/If5ccL5HOHXqF7KhYJ3bZoMjgtosE9dZzCJE5DqyLGH768uj1PYZi2dK0PgUDfCxds6i5vNUqr4fHKn/gdhPeoescS0F25JG+XHiFrTAhbGaQLlBHHijAYt+JiIw4bTaAHSEF4XP04rLlESE2YXOAbtk1AT/hwbXBjuErED6m5AL6ZCXxDlrB+JDBUq8qCp9oajIKuAWv9GnTEj6wKuNMcdkA5aBC24NLBh+Cy9DtGFzYbnENVPfSzJACuXvyUvGrVQXqOastP/2UNFOnkDiXwL6o+FCoT/Ki3BEdK+MhLBcA2KRzTi96WWx/UomSV9VoR6BVcr15IAb6lyTccFbbioZYEg9TZnzOHMAUJdL3dfNSHR+7xeMZ9D8TnkZiJP/mriVg4OXPMF2PTOj0fbBxqWzPNaC/uSS9OH2d8yDgTxpsOOlMhnhOh6LBoQo0IFNZUj2NNgT87bWi5ZDfg=
+  app: restaurantCiDployment
+  on:
+    repo: esokoletsky/restaurantCiDployment
+    branch: feature/with-tests
