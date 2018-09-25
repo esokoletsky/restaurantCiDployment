@@ -10,3 +10,4 @@ deploy:
   on:
     repo: esokoletsky/restaurantCiDployment
     branch: feature/with-tests
+ 
