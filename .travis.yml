@@ -2,12 +2,11 @@ language: node_js
 node_js: node
 services:
 - mongodb
-deploy:app: desolate-sea-45830
 deploy:
   provider: heroku
   api_key:
     secure: Rezzo+oxphkFdkFWACqxWh/TvXwQt4MIWqcalNDU9JnN8qY6M7NAfNN5Fl3so7TYr7PCbNEL4KQH9iWlDNCLCG9GZqGROWfKikiRUKknYN7/oJUAbgBevrzosU1spS/T7BIs2NYRGyVQRBFjH9WFCL+wWrzpzOJb5Qi09hhDiGN9ztMA3o553Qp6PtQuiig19cGj1oHTYKe56xAJTuHxyTnvqhedRS1rU1U8Lbh+nuSj/yxvDTFNx6GIXkdj0WdaQchc3Am6sKuP69XkXYGHzfApjttALJVY/jKoIiYHQiIA2BTv2z31JKA/FtfCcx8C4gl3L2P24dIitQ2NIjl2gc3RjwWPDrceM64L2md+olJY8oSR187/t1qvoyxxH/qUVXonTgB9pKTk1FsMZxLmF9safmUEkeaV+IgdFBpskePBFc4koVUpsTANQgwOE8N6Dlz6OuKOpF/ENnIIdVdzZ4fs9x7ZCZB476tilhRt54VenvbTFTpI5eWd8LXR6X7AKYoM65/fMLY62SBTBsLGJfbwYzPd7Bu4+RpEOISqzzKfag6Zl8yY9a0ngrFEclgvSxnGNivrSPuIcxNdjq9fKwcLUP5xERXf1fPVkUyIn/1WYy4WffIqeOUjL8XEviKAi05sn0IGsqDJrJfFQJrfxyOnMNoxbPWT+YB8rX7hAek=
-  app: restaurantCiDployment
+  app: desolate-sea-45830
   on:
-    repo: esokoletsky/restaurantCiDployment
+    repo: https://github.com/esokoletsky/restaurantCiDployment
     branch: feature/with-tests
