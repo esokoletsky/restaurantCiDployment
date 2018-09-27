@@ -88,7 +88,7 @@ describe('Restaurants API resource', function() {
   // `seedRestaurantData` and `tearDownDb` each return a promise,
   // so we return the value returned by these function calls.
   before(function() {
-    return runServer(TEST_DATABASE_URL);
+    return runServer(DATABASE_URL);
   });
 
   beforeEach(function() {
