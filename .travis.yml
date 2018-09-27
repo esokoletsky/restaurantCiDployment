@@ -4,7 +4,7 @@ deploy:
   provider: heroku
   api_key:
     secure: FnJQ4oxzojjMbugKBJikd5g7K5ybJJ1IS7B9kwaBnlzeffTdNJ9EAneixLA4/0t9Y6mEHB01EDNdojCoiA9onBjX/b770TgxAZCJRerzv5P3opvCLuAUByfRMtDWCSMQMG7Ou8RbD+yqxDhl3SYcCz1Z1iZQrgHF/Dfq9Jyu2OSHHNmyCCbl07tUdsd6xD8p15ZFsER8K2+radoLl9Y4sw64HbwOzSqpEp3VxnOH36c8Z4iMPrSTh2R8svkda6rMDkVXsk322X7wT8UHZ1YfTENAdbVlkn9ThwAokLTupU4gNaOB5Bg0iaG7D4mNKc17POcnQ87f+ASiC6vwtAcqOcE3y5LV9ffGqCBtXgi1kcnQ7PVnpCIsNm/4k89IJ521zFWhOM5BoLSe6IXi726crjZwEEip/SCriIUZRNmVIuJ9lUne75n0WnXDqIjRxxvZ3rI+eVwlMVtTUQA6DR46M5guUzfzuKlcq1Qqxj/QCgaFQv+Ud7jNYbLpy7KZ9og6RlXSYco126GUgUhrtXS5pH+IZGPFfUjzbMyhI/bJ6bA04WBvGWLI1+caJfAUqmbTj4Ce1gSjFDIwKLDxqcTijyxwHe2+LKOAN8VQsTOpJUZXPzFwrraLA394xYnf54eV4OsCE/LQWqt83XCya+imdXJLTqW53xnW4iR2Tx+OWDI=
-  app: restaurantCiDployment
+  app: desolate-sea-45830
   on:
     repo: esokoletsky/restaurantCiDployment
     branch: feature/with-tests
