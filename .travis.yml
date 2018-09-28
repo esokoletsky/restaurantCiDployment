@@ -3,7 +3,7 @@ node_js: node
 deploy:
   provider: heroku
   api_key:
-    secure: YMpgWGv0rS5sq3oS6jFR4j4NnjBVhMGyAtCotBrSespaVQaBJ0+MoZh62elgGTBISE84jAEpJjRVme0I3DSsaE/DoPQFnR7F+izFl6UVcKDW6b6D04pohHGo0yQew5Kx0y+eZ5AtqVy3+WoA/nD06Wxt3eGR5pmo95snnIF9B886rNivQIQJ27KLot7ryv4qXgdBMthnhg4Ulfb+A1MwBPY8Yyx/2Y8RAyy97IeFwL3LFo6i5A7l/GpXuwQppVjkTV31CIGy7iF9+KpVBIyWI5cLzqHd/7CwoFlwfLqD9/uqjOqkZx+g7o7xlwEkqf2WvJQocPvIEk2XpuwaxKc8Il2blJsEWKi9bqPUQFcILu+XvitXqzSd/YPBfluTi4Yr/DNgMNnQEXdumOq/BWLGURi2U7SAJuLghozj7afqJiVTlCnrkO9DOGeyYlaKgY8eEta7ReyjqoaK3AsGSorEq6qdZ+CwDnkudjmjhbXll1gmFsj7FadHeaqxPtbVbQCVeHpSRJoyw9PR++3Qeko1AN8GaNk1Lbk2Lvwk+36SBgPzHDGrhwRHMuWYCd3cztDV/pbX2hDY0gq0mpTTPL4ohXVjsBOuShlc2yz1D0nq/4RzBKRLiF1TM0lMttHVXMJJIEAGgjgqm7IFmADS5atVwT9LeA0tovtS5eANZDa28fE=
+    secure: 449b8429-9b0f-4380-989a-9e5123db2c17
   app: desolate-sea-45830
   on:
     repo: esokoletsky/restaurantCiDployment
